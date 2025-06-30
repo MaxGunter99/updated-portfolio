@@ -27,3 +27,18 @@
     text-align: left;
     padding: var(--standard-padding);
 }
+
+@media (max-width: 768px) {
+    
+    .summary-container {
+        flex-direction: column;
+        padding: var(--standard-padding);
+    }
+    
+    .avatar-image {
+        width: 100%;
+        height: auto;
+        border-radius:var(--standard-border-radius);
+    }
+
+}
