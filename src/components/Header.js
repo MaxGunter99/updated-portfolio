@@ -29,7 +29,7 @@ export default function Header() {
 
 					<div className='item-group'>
 						<Phone className='icon'/>
-						<p className="item">830.9989.770</p>
+						<p className="item">830.998.9770</p>
 					</div>
 
 				</div>
