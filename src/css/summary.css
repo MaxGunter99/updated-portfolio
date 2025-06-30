@@ -28,6 +28,10 @@
     padding: var(--standard-padding);
 }
 
+.summary-content p {
+    text-indent: var(--standard-text-indent);
+}
+
 @media (max-width: 768px) {
     
     .summary-container {

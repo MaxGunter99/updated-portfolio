@@ -17,7 +17,7 @@
 }
 
 .experience-details {
-    text-indent: 5px;
+    text-indent: var(--standard-text-indent);
 }
 
 @media (max-width: 768px) {
