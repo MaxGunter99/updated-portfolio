@@ -1,4 +1,8 @@
 
+body {
+  background-color: var(--primary-color);
+}
+
 .app-container {
 	text-align: center;
 	display: flex;
@@ -10,7 +14,8 @@
 	/* color: white; */
 	text-wrap: wrap;
     justify-content: space-between;
-	/* background-color: var(--primary-background-color); */
+	background-color: var(--primary-background-color);
+    border: 0px;
 }
 
 .app-content {
