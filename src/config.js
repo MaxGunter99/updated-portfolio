@@ -101,12 +101,12 @@ function applyTheme(themeKey) {
 
 // applyTheme( "minty" );
 // applyTheme( "cool blue" );
-applyTheme("cool grey");
+// applyTheme("cool grey");
 // applyTheme( "eris morn" );
 // applyTheme( "pink" );
 // applyTheme( "peachy" );
 // applyTheme( "mustard" );
-// applyTheme( "clouds" );
+applyTheme( "clouds" );
 
 // document.documentElement.style.setProperty("--primary-font", config.primaryFont);
 // document.documentElement.style.setProperty("--primary-font-size", config.primaryFontSize);

@@ -1,6 +1,7 @@
 
 .projects-container {
     padding: var(--standard-padding);
+    border-bottom: 3px solid var(--secondary-background-color);
 }
 
 .project-item {
@@ -12,8 +13,22 @@
 .project-info {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.project-link {
+    background-color: var(--primary-background-color);
+    padding: var(--standard-padding);
+    border-radius: var(--standard-border-radius);
+    border: 2px solid var(--primary-color);
 }
 
 .project-link:hover {
     cursor: pointer;
+    border: 2px solid var(--secondary-color);
+}
+
+.icon {
+    size: var(--standard-icon-size);
+    color: black;
 }

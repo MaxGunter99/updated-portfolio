@@ -36,6 +36,7 @@ export default function Experience() {
 
                 <div className="experience-details">
                     <p>Engineered full-stack features and internal pipelines that directly supported new partner integrations and optimized healthcare operations. Delivered high-impact solutions across React and Django dashboards that streamlined scheduling for medical staff.</p>
+                    <br />
                     <ul>
                         <li>Build React/Django pipelines across internal dashboards to support partner onboarding and expansion</li>
                         <li>Automated calendar parsing to identify open slots for Nurse Assessors, enabling smarter appointment scheduling and better coverage</li>

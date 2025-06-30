@@ -3,6 +3,7 @@
 import '../css/footer.css'
 
 import config from "../config";
+import { GitHub, Linkedin, Mail } from 'react-feather';
 
 // IMAGES
 import LambdaStamp from '../images/LambdaStamp.png'
@@ -39,9 +40,18 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-section right">
-                    <p className="text-item link" onClick={ toGitHub }>GitHub</p>
-                    <p className="text-item link" onClick={ toLinkedIn }>LinkedIn</p>
-                    <p className="text-item link" onClick={ toEmail }>Email</p>
+                    <div className="icon-group">
+                        <GitHub className="icon"/>
+                        <p className="text-item link" onClick={ toGitHub }>GitHub</p>
+                    </div>
+                    <div className="icon-group">
+                        <Linkedin className="icon"/>
+                        <p className="text-item link" onClick={ toLinkedIn }>LinkedIn</p>
+                    </div>
+                    <div className="icon-group">
+                        <Mail className="icon"/>
+                        <p className="text-item link" onClick={ toEmail }>Email</p>
+                    </div>
                 </div>
 
             </div>

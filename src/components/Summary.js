@@ -4,7 +4,9 @@
 import '../css/summary.css'
 
 import config from "../config.js";
-import avatar from "../images/Avatar.jpeg";
+// import avatar from "../images/Avatar1.jpeg";
+// import avatar from "../images/Avatar2.jpeg";
+import avatar from "../images/Avatar3.PNG";
 
 export default function Summary() {
 
@@ -13,7 +15,9 @@ export default function Summary() {
         <div className="summary-container">
 
 
-            <img className="avatar-image" src={avatar} />  
+            <img className="avatar-image" src={avatar} /> 
+
+            <br /> 
 
             <div className='summary-content'>
                 <h2>About Me</h2>
