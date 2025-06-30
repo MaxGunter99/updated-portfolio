@@ -1,0 +1,19 @@
+
+.projects-container {
+    padding: var(--standard-padding);
+}
+
+.project-item {
+    padding: var(--standard-padding);
+    background-color: var(--secondary-background-color);
+    border-radius: var(--standard-border-radius);
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-link:hover {
+    cursor: pointer;
+}

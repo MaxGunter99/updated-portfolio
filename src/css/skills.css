@@ -1,0 +1,24 @@
+
+.skills-list-container {
+    padding: var(--standard-padding);
+    border-bottom: 3px solid var(--secondary-background-color);
+}
+
+
+/* .skills-list-title {
+
+} */
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    /* flex: 1; */
+    min-width: fit-content;
+    background-color: var(--secondary-background-color);
+    margin: var(--standard-margin);
+    padding: var(--standard-padding);
+    border-radius: var(--standard-border-radius);
+}

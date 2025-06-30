@@ -1,0 +1,21 @@
+
+.experience-container {
+    padding: var(--standard-padding);
+    border-bottom: 3px solid var(--secondary-background-color)
+}
+
+/* .experience-info {
+    padding: var(--standard-padding);
+} */
+
+.experience-item {
+    width: 100%;
+    background-color: var(--secondary-background-color);
+    margin: var(--standard-padding);
+    padding: var(--standard-padding);
+    border-radius: var(--standard-border-radius);
+}
+
+.experience-details {
+    text-indent: 10px;
+}
