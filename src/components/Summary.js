@@ -20,7 +20,7 @@ export default function Summary() {
             <br /> 
 
             <div className='summary-content'>
-                <h2>About Me</h2>
+                <h2 className="main-font">About Me</h2>
                 <p>{config["JOB_TITLE"]} with 3+ years of experience building apps in React and Django. Bootcamp-trained with industry experience. Passionate about performance, resilience, and systems that work. Outside of coding, I enjoy flying a custom-built drone and discovering new music.</p>
             </div>
             

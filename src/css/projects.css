@@ -1,7 +1,6 @@
 
 .projects-container {
     padding: var(--standard-padding);
-    border-bottom: 3px solid var(--secondary-background-color);
 }
 
 .project-item {
@@ -9,6 +8,21 @@
     background-color: var(--secondary-background-color);
     border-radius: var(--standard-border-radius);
 }
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: var(--standard-border-radius);
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+/* .project-image.rubiks-cube {
+    width: 40%;
+    display: flex;
+    align-self: center;
+    margin: 0 auto;
+} */
 
 .project-info {
     display: flex;

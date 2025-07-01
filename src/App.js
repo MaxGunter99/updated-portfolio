@@ -15,9 +15,12 @@ function App() {
 			<div  className='app-content'>
 				<Summary />
 				<Skills />
+				<hr className='custom-divider' />
 				<Experience />
-				<Projects />
+				<hr className='custom-divider' />
 				<Credentials />
+				<hr className='custom-divider' />
+				<Projects />
 			</div>
 
 			<Footer />

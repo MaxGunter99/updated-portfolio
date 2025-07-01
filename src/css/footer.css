@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     /* border-radius: var(--standard-border-radius) var(--standard-border-radius) 0px 0px; */
+    padding: var( --standard-padding );
 }
 
 .footer-content {
@@ -56,21 +57,21 @@
     text-decoration: none;
 }
 
-.footer-section .link:hover {
-    cursor: pointer;
-    color: white;
-    text-decoration: underline;
-}
-
 .icon-group {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.icon-group .icon {
-    color: black;
+.icon-group:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--secondary-color);
 }
+
+/* .icon-group .icon {
+    color: black;
+} */
 
 @media (max-width: 768px) {
 

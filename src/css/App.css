@@ -3,6 +3,26 @@
   background-color: var(--primary-color);
 } */
 
+
+.main-font {
+  font-family: "Inclusive Sans", sans-serif;
+  /* font-optical-sizing: auto; */
+  font-weight: 500;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.custom-divider {
+    /* padding: var(--standard-padding); */
+    /* margin: var(--standard-margin); */
+    border: 3px solid var(--secondary-background-color);
+    /* margin: 100px; */
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: var(--standard-border-radius);
+}
+
 .app-container {
 	text-align: center;
 	display: flex;

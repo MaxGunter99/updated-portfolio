@@ -74,7 +74,7 @@ const config = {
 
 	standardTransition: "0.2s",
 	standardBorderRadius: "10px",
-	standardPadding: "0.70em",
+	standardPadding: "0.6em",
 	standardMargin: "5px",
 	standardIconSize: "25px",
 	standardIconStrokeWidth: "2px",

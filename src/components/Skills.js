@@ -6,7 +6,7 @@ export default function Skills() {
     return (
         <div className="skills-list-container">
 
-            <h2 className="skills-list-title">Skills</h2>
+            <h2 className="skills-list-title main-font">Skills</h2>
             
             <div className="skills-list">
                 <p className="skill">JavaScript</p>

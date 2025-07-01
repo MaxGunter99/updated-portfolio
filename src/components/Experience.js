@@ -6,7 +6,7 @@ export default function Experience() {
     return (
         <div className="experience-container">
 
-            <h2>Experience</h2>
+            <h2 className="main-font">Experience</h2>
 
             <div className="experience-item">
 

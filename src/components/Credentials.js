@@ -5,24 +5,32 @@ import { Link } from 'react-feather';
 
 export default function Credentials() {
 
+    const toFullStackCred = () => {
+        window.location.href = "https://www.credly.com/badges/4c4221f0-93e9-4716-be89-1d9b38ba2427?source=linked_in_profile"
+    }
+
+    const toJavaCred = () => {
+        window.location.href = "https://www.udemy.com/certificate/UC-45d53560-c7b9-4559-856a-ea159a8114c9/"
+    }
+
     return (
 
         <div className="credentials-container">
 
-            <h2>Credentials</h2>
+            <h2 className="main-font">Credentials</h2>
 
             <br />
 
             <div className="credential-item-container">
                 
-                <div className="credential-item">
+                <div className="credential-item" onClick={toFullStackCred}>
                     <p><strong>Full-Stack Web Development + Technical Interviewing</strong></p>
-                    <a href="https://www.credly.com/badges/4c4221f0-93e9-4716-be89-1d9b38ba2427?source=linked_in_profile"><Link className="icon"/></a>
+                    <Link className="icon"/>
                 </div>
                 
-                <div className="credential-item">
+                <div className="credential-item" onClick={toJavaCred}>
                     <p><strong>Java Tutorial for Complete Beginners</strong></p>
-                    <a href="https://www.udemy.com/certificate/UC-45d53560-c7b9-4559-856a-ea159a8114c9/"><Link className="icon"/></a>
+                    <Link className="icon"/>
                 </div>
 
             </div>

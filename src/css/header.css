@@ -41,6 +41,11 @@
 
 @media (max-width: 768px) {
 
+    .header-title-container {
+        text-align: left;
+        align-items: flex-start;
+    }
+
     .header-subsection {
         width: 100%;
         display: flex;

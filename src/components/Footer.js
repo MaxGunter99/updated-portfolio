@@ -40,17 +40,17 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-section right">
-                    <div className="icon-group">
+                    <div className="icon-group" onClick={ toGitHub }>
                         <GitHub className="icon"/>
-                        <p className="text-item link" onClick={ toGitHub }>GitHub</p>
+                        <p className="text-item link">GitHub</p>
                     </div>
-                    <div className="icon-group">
+                    <div className="icon-group" onClick={ toLinkedIn }>
                         <Linkedin className="icon"/>
-                        <p className="text-item link" onClick={ toLinkedIn }>LinkedIn</p>
+                        <p className="text-item link">LinkedIn</p>
                     </div>
-                    <div className="icon-group">
+                    <div className="icon-group" onClick={ toEmail }>
                         <Mail className="icon"/>
-                        <p className="text-item link" onClick={ toEmail }>Email</p>
+                        <p className="text-item link" >Email</p>
                     </div>
                 </div>
 

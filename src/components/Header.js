@@ -9,8 +9,8 @@ export default function Header() {
 	return (
 		<div className="header-container">
 			<div className="header-title-container">
-				<h1>{config['NAME']}</h1>
-				<p>{config['JOB_TITLE']}</p>
+				<h1 className="main-font">{config['NAME']}</h1>
+				<h4>{config['JOB_TITLE']}</h4>
 				<br />
 				{/* <div className="header-subsection">
                 </div> */}
