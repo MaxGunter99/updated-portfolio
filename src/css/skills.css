@@ -20,4 +20,5 @@
     margin: var(--standard-margin);
     padding: var(--standard-padding);
     border-radius: var(--standard-border-radius);
+    text-indent: 0;
 }

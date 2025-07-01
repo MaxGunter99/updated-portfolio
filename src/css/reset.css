@@ -176,18 +176,56 @@ h6 {
 	margin-bottom: 0.2em;
 }
 
-/* Lists */
-ul {
-	list-style-type: disc;
-	padding-left: 1.5rem;
-	margin-bottom: 1rem;
-}
-
-li {
-	margin-bottom: 0.25rem;
-}
-
 /* Text */
 strong {
 	font-weight: bold;
 }
+
+p {
+  font-size: var(--standard-text-size);
+  line-height: var(--standard-line-height);
+  /* margin-bottom: 1rem; */
+  color: inherit; /* or inherit */
+}
+
+a {
+	font-size: var(--standard-text-size);
+	line-height: var(--standard-line-height);
+	/* margin-bottom: 1rem; */
+	color: #007bff;
+	text-decoration: none;
+	transition: color 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* === Unordered Lists === */
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+
+/* === Ordered Lists === */
+ol {
+  list-style: decimal;
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+ol li {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+

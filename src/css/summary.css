@@ -37,6 +37,8 @@
 
 .summary-content p {
     text-indent: var(--standard-text-indent);
+    padding: var(--standard-padding);
+    border-left: 3px solid var(--darker);
 }
 
 @media (max-width: 768px) {

@@ -79,7 +79,9 @@ const config = {
 	standardIconSize: "25px",
 	standardIconStrokeWidth: "2px",
     standardMaxWidth: "1200px",
+    standardTextSize: "1rem",
     standardTextIndent: "10px",
+    standardLineHeight: "1.5",
     
 	lambdaStampSize: "125px",
 	lambdaRed: "#e83944",
@@ -120,7 +122,9 @@ document.documentElement.style.setProperty("--standard-margin", config.standardM
 document.documentElement.style.setProperty("--standard-icon-size", config.standardIconSize);
 document.documentElement.style.setProperty("--standard-icon-stroke-width", config.standardIconStrokeWidth);
 document.documentElement.style.setProperty("--standard-max-width", config.standardMaxWidth);
+document.documentElement.style.setProperty("--standard-text-size", config.standardTextSize);
 document.documentElement.style.setProperty("--standard-text-indent", config.standardTextIndent);
+document.documentElement.style.setProperty("--standard-line-height", config.standardLineHeight);
 
 document.documentElement.style.setProperty("--lambda-stamp-size", config.lambdaStampSize);
 document.documentElement.style.setProperty("--lambda-red", config.lambdaRed);

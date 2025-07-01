@@ -26,7 +26,7 @@ export default function Projects() {
                     </div>
                     <a className="project-link" href="https://github.com/MaxGunter99/React-Node-Scratch" target="_blank" rel="noreferrer" title="View this project on GitHub">
                         {/* <LinkToProjectSource className="icon"/> */}
-                        View on GitHub
+                        <strong>GitHub</strong>
                     </a>
                 </div>
 
@@ -80,7 +80,7 @@ export default function Projects() {
                     </div>
                     <a className="project-link" href="https://github.com/MaxGunter99/digital_rubiks_cube" target="_blank" rel="noreferrer" title="View this project on GitHub">
                         {/* <LinkToProjectSource className="icon"/> */}
-                        View on GitHub
+                        <strong>GitHub</strong>
                     </a>
                 </div>
 
@@ -88,7 +88,32 @@ export default function Projects() {
                 <br />
                 {/* <img src={RubiksCubeImage} className="project-image rubiks-cube"/> */}
 
+                <pre>
+                    <code>
+                        <br/>
+                        cube_client = RubiksCube()
+                        <br/>
+
+                        cube_client.shuffle_cube( random_turns_count = 100 )
+                        <br/>
+
+                        cube_client.visualize_cube()
+                        <br/>
+                        <br/>
+
+                        steps_to_solve = cube_client.solve_cube()
+                        <br/>
+                        print( steps_to_solve 
+
+                        <br/>
+                        <br/>
+                    </code>
+                </pre>
+
+                <br />
+
                 <div className="project-details">
+
                     
                     <p>This is an interactive Python project that brings the classic Rubik's Cube into the digital realm. It leverages a custom 3D matrix data structure to represent the cube and manipulate each face with precision—no AI shortcuts, just pure, hand-crafted logic. The goal? Solve any configuration in under 30 seconds—though it's currently achieving solutions in just 0.05 seconds, faster than the Hokey Pokey.</p>
                     
@@ -121,12 +146,15 @@ export default function Projects() {
                     </div>
                     <a className="project-link" href="https://github.com/MaxGunter99/Personalize" target="_blank" rel="noreferrer" title="View this project on GitHub">
                         {/* <LinkToProjectSource className="icon"/> */}
-                        View on GitHub
+                        <strong>GitHub</strong>
                     </a>
                 </div>
 
                 <br />
                 <img src={PersonalizeImage} className="project-image"/>
+
+                <br />
+                <br />
 
                 <div className="project-details">
                     <p>Job tracking application that motivates users to continue applying through statistical information and tips.</p>

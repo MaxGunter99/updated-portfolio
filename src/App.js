@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Credentials from './components/Credentials';
+import Divider from './components/Divider';
 import './css/App.css';
 
 function App() {
@@ -15,11 +16,11 @@ function App() {
 			<div  className='app-content'>
 				<Summary />
 				<Skills />
-				<hr className='custom-divider' />
+				<Divider/>
 				<Experience />
-				<hr className='custom-divider' />
+				<Divider/>
 				<Credentials />
-				<hr className='custom-divider' />
+				<Divider/>
 				<Projects />
 			</div>
 

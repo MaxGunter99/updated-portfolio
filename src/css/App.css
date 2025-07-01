@@ -16,17 +16,6 @@ p {
     text-indent: var(--standard-text-indent);
 }
 
-.custom-divider {
-    /* padding: var(--standard-padding); */
-    /* margin: var(--standard-margin); */
-    border: 3px solid var(--secondary-background-color);
-    /* margin: 100px; */
-    width: 90%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: var(--standard-border-radius);
-}
-
 .app-container {
 	text-align: center;
 	display: flex;

@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding: var(--standard-padding); */
+    padding: var(--standard-padding);
 }
 
 .item-group .icon {

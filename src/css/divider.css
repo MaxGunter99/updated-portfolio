@@ -1,0 +1,12 @@
+
+.custom-divider {
+    /* padding: var(--standard-padding); */
+    /* margin: var(--standard-margin); */
+    border: 3px solid var(--darker);
+    /* margin: 100px; */
+    /* width: 90%; */
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: var(--standard-border-radius);
+}
