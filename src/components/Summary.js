@@ -14,13 +14,13 @@ export default function Summary() {
         <div className="summary-container">
 
 
-            <img className="avatar-image" src={avatar} /> 
+            <img className="avatar-image" src={avatar} alt="Profile"/> 
 
             <br /> 
 
             <div className='summary-content'>
                 <h2 className="main-font">About Me</h2>
-                <p>{config["JOB_TITLE"]} with 3+ years of experience building apps in React and Django. Bootcamp-trained with industry experience. Passionate about performance, resilience, and systems that work. Outside of coding, I enjoy flying a custom-built drone and discovering new music.</p>
+                <p>{config["JOB_TITLE"]} educated by a hands-on experience through Lambda School's Full-Stack Web Development track. Strong collaborator, works well in cross-functional teams to achieve the project or task at hand. Enjoys creating efficient ways to improve user interfaces.</p>
             </div>
             
         </div>

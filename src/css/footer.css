@@ -52,10 +52,10 @@
     align-items: flex-start;
 }
 
-.footer-section .link {
-    transition: var(--standard-transition);
-    text-decoration: none;
+.link {
+    color: black;
 }
+
 
 .icon-group {
     display: flex;
@@ -65,8 +65,6 @@
 
 .icon-group:hover {
     cursor: pointer;
-    color: white;
-    background-color: var(--secondary-color);
 }
 
 /* .icon-group .icon {

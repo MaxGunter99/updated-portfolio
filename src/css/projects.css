@@ -21,19 +21,19 @@
     width: 100%;
     height: auto;
     border-radius: var(--standard-border-radius);
-    border: 3px solid white;
+    /* border: 3px solid white; */
     /* margin-bottom: 10px; */
 }
 
 pre code {
     display: block;
-    background-color: #1e1e1e;
+    background-color: #282828;
     text-align: left;
-    color: #e0e0e0;
+    color: white;
     padding: var(--standard-padding);
     border-radius: var(--standard-border-radius);
     font-family: 'Fira Code', 'Courier New', monospace;
-    font-size: 0.95rem;
+    font-size: var(--standard-font-size);
     line-height: 1.6;
     white-space: pre-wrap;
     word-break: break-word;

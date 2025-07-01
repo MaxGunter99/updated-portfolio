@@ -1,14 +1,14 @@
 
 import "../css/projects.css"
 
-import { 
-    // GitHub as LinkToProjectSource, 
-    // ExternalLink as LinkToProjectSource
-    Link2 as LinkToProjectSource
-} from 'react-feather';
+// import { 
+//     // GitHub as LinkToProjectSource, 
+//     // ExternalLink as LinkToProjectSource
+//     Link2 as LinkToProjectSource
+// } from 'react-feather';
 import PersonalizeImage from "../images/Personalize.PNG"
 // import RubiksCubeImage from "../images/RubiksCube.PNG"
-import MultiToolVideoGames from "../images/MultiToolVideoGames.png"
+// import MultiToolVideoGames from "../images/MultiToolVideoGames.png"
 
 export default function Projects() {
     
@@ -26,7 +26,7 @@ export default function Projects() {
                     </div>
                     <a className="project-link" href="https://github.com/MaxGunter99/React-Node-Scratch" target="_blank" rel="noreferrer" title="View this project on GitHub">
                         {/* <LinkToProjectSource className="icon"/> */}
-                        <strong>GitHub</strong>
+                        <strong>GitHub ↗</strong>
                     </a>
                 </div>
 
@@ -80,7 +80,7 @@ export default function Projects() {
                     </div>
                     <a className="project-link" href="https://github.com/MaxGunter99/digital_rubiks_cube" target="_blank" rel="noreferrer" title="View this project on GitHub">
                         {/* <LinkToProjectSource className="icon"/> */}
-                        <strong>GitHub</strong>
+                        <strong>GitHub ↗</strong>
                     </a>
                 </div>
 
@@ -146,12 +146,12 @@ export default function Projects() {
                     </div>
                     <a className="project-link" href="https://github.com/MaxGunter99/Personalize" target="_blank" rel="noreferrer" title="View this project on GitHub">
                         {/* <LinkToProjectSource className="icon"/> */}
-                        <strong>GitHub</strong>
+                        <strong>GitHub ↗</strong>
                     </a>
                 </div>
 
                 <br />
-                <img src={PersonalizeImage} className="project-image"/>
+                <img src={PersonalizeImage} className="project-image" alt="Personalize Dashboard Screenshot"/>
 
                 <br />
                 <br />
