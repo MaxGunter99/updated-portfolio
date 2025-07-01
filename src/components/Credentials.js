@@ -19,8 +19,6 @@ export default function Credentials() {
 
             <h2 className="main-font">Credentials</h2>
 
-            <br />
-
             <div className="credential-item-container">
                 
                 <div className="credential-item" onClick={toFullStackCred}>

@@ -10,12 +10,34 @@
 .experience-item {
     width: 100%;
     background-color: var(--secondary-background-color);
-    margin-bottom: var(--standard-padding);
+    /* margin-bottom: var(--standard-padding); */
     padding: var(--standard-padding);
     border-radius: var(--standard-border-radius);
 }
 
+.experience-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    align-items: last baseline;
+    /* border-bottom: 1px solid black; */
+}
+
+.experience-info-location {
+    /* border: 3px solid red; */
+}
+
+.experience-info p {
+    text-indent: 0;
+}
+
 .experience-details {
+    padding: var(--standard-padding);
+    border-left: 3px solid var(--darker);
+}
+
+.experience-details p {
     text-indent: var(--standard-text-indent);
 }
 

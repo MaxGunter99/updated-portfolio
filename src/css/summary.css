@@ -31,6 +31,8 @@
     justify-content: center;
     text-align: left;
     padding: var(--standard-padding);
+    /* border: 3px solid red; */
+    margin: var(--standard-margin);
 }
 
 .summary-content p {

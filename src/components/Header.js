@@ -11,7 +11,7 @@ export default function Header() {
 			<div className="header-title-container">
 				<h1 className="main-font">{config['NAME']}</h1>
 				<h4>{config['JOB_TITLE']}</h4>
-				<br />
+				{/* <br /> */}
 				{/* <div className="header-subsection">
                 </div> */}
 

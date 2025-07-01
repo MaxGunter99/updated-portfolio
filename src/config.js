@@ -73,18 +73,19 @@ const config = {
 	// -----------------
 
 	standardTransition: "0.2s",
-	standardBorderRadius: "10px",
-	standardPadding: "0.6em",
+	standardBorderRadius: "5px",
+	standardPadding: "0.7em",
 	standardMargin: "5px",
 	standardIconSize: "25px",
 	standardIconStrokeWidth: "2px",
     standardMaxWidth: "1200px",
-    standardTextIndent: "5px",
+    standardTextIndent: "10px",
     
 	lambdaStampSize: "125px",
 	lambdaRed: "#e83944",
 	errorRed: "rgb(224, 102, 102)",
 	transparent: "rgba(255, 0, 0, 0)",
+	darker: "rgba(0, 0, 0, 0.12)",
     avatarSize: "250px",
 };
 
@@ -100,13 +101,13 @@ function applyTheme(themeKey) {
 }
 
 // applyTheme( "minty" );
-// applyTheme( "cool blue" );
+applyTheme( "cool blue" );
 // applyTheme("cool grey");
 // applyTheme( "eris morn" );
 // applyTheme( "pink" );
 // applyTheme( "peachy" );
 // applyTheme( "mustard" );
-applyTheme( "clouds" );
+// applyTheme( "clouds" );
 
 // document.documentElement.style.setProperty("--primary-font", config.primaryFont);
 // document.documentElement.style.setProperty("--primary-font-size", config.primaryFontSize);
@@ -125,6 +126,7 @@ document.documentElement.style.setProperty("--lambda-stamp-size", config.lambdaS
 document.documentElement.style.setProperty("--lambda-red", config.lambdaRed);
 document.documentElement.style.setProperty("--error-red", config.errorRed);
 document.documentElement.style.setProperty("--transparent", config.transparent);
+document.documentElement.style.setProperty("--darker", config.darker);
 document.documentElement.style.setProperty("--avatar-size", config.avatarSize);
 
 export default config;

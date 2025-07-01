@@ -10,25 +10,31 @@ export default function Experience() {
 
             <div className="experience-item">
 
-                <h4>Crew Member (Part-Time)</h4>
+                <h4>Crew Member</h4>
 
                 <div className="experience-info">
-                    <p>Domino's Pizza</p>
-                    <p>Fredericksburg, TX</p>
+                    <div className="experience-info-location">
+                        <p><strong>Domino's Pizza</strong></p>
+                        <p>Fredericksburg, TX</p>
+                    </div>
                     <p>Oct 2024 - Present</p>
                 </div>
 
-                <br />
+                {/* <br /> */}
 
             </div>
+
+            <br />
 
             <div className="experience-item">
 
                 <h4>Software Engineer</h4>
 
                 <div className="experience-info">
-                    <p>The Helper Bees</p>
-                    <p>Austin, TX</p>
+                    <div className="experience-info-location">
+                        <p><strong>The Helper Bees</strong></p>
+                        <p>Austin, TX</p>
+                    </div>
                     <p>Jun 2020 - Oct 2023</p>
                 </div>
 

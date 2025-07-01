@@ -5,7 +5,6 @@ import '../css/summary.css'
 
 import config from "../config.js";
 // import avatar from "../images/Avatar1.jpeg";
-// import avatar from "../images/Avatar2.jpeg";
 import avatar from "../images/Avatar3.PNG";
 
 export default function Summary() {
