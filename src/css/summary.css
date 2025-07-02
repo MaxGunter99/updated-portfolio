@@ -21,8 +21,8 @@
 
     /* FOR TRANSPARENT */
     backdrop-filter: blur(10px);
-    /* background: linear-gradient(to bottom, var(--primary-color), rgb(90,170,198)); */
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.492), rgba(255, 255, 255, 0.263), rgba(0, 0, 0, 0.79));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.492), var(--primary-color), rgba(0, 0, 0, 0.492));
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.492), rgba(255, 255, 255, 0.263), rgba(0, 0, 0, 0.79)); */
 }
 
 .summary-content {

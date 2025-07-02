@@ -77,20 +77,10 @@ pre code {
 }
 
 .project-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* padding: 5px; */
-    /* background-color: var(--primary-background-color); */
-    /* border-radius: var(--standard-border-radius); */
-    /* border-radius: 50%; */
-    /* border: 2px solid var(--primary-color); */
-    /* color: blue; */
     transition: var(--standard-transition);
     text-decoration: none;
-    /* flex: 1; */
-    width: fit-content;
-    /* color: black; */
+    display: inline-block;
+    white-space: nowrap;
 }
 
 .project-link:hover {

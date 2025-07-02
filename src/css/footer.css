@@ -84,7 +84,7 @@
     .footer-section.left {
         width: fit-content;
         align-items: flex-start;
-        /* text-align: left; */
+        text-align: left;
     }
 
     .footer-section.right {
