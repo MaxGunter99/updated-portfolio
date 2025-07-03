@@ -8,7 +8,7 @@
     /* padding: var(--standard-padding); */
     /* margin: var(--standard-padding); */
     /* border: var(--standard-border) solid red; */
-    /* background-color: var(--secondary-background-color); */
+    background-color: var(--secondary-background-color);
     border-radius: var(--standard-border-radius);
 }
 
@@ -34,6 +34,7 @@
     padding: var(--standard-padding);
     /* border: var(--standard-border) solid red; */
     margin: var(--standard-margin);
+    /* background-color: var(--secondary-background-color); */
 }
 
 .summary-content p {

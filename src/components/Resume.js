@@ -3,12 +3,25 @@ import "../css/resume.css"
 
 import ResumePDF from "../resumes/Michael_Gunter_Resume.pdf"
 import { 
-    Package,
-    FileText,
     Download
 } from "react-feather"
 
-export default function Resume() {
+export default function Resume({ returnButton }) {
+
+    const downloadResumeButton = (
+        <a 
+            href={ResumePDF} 
+            download="Michael_Gunter_Resume.pdf"
+            class="resume-button"
+        >
+            <strong>Download Resume</strong>
+            <Download className="download-icon"/>
+        </a>
+    )
+
+    if ( returnButton === true ) {
+        return downloadResumeButton
+    }
 
     return (
         <div className="resume-container">
@@ -25,16 +38,7 @@ export default function Resume() {
                     height="100%"
                 /> */}
 
-                <a 
-                    href={ResumePDF} 
-                    download="Michael_Gunter_Resume.pdf"
-                    class="resume-button"
-                >
-                    <strong>Download Resume</strong> 
-                    {/* <Package className="download-icon"/> */}
-                    {/* <FileText className="download-icon"/> */}
-                    <Download className="download-icon"/>
-                </a>
+                {downloadResumeButton}
 
             </div>
 

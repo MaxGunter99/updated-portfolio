@@ -26,20 +26,23 @@
 }
 
 .resume-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: var(--standard-padding);
-  /* color: black; */
-  /* font-weight: 600; */
-  /* background-color: var(--primary-color); */
-  background-color: var(--lighter);
-  border: none;
-  border-radius: var(--standard-border-radius);
-  cursor: pointer;
-  text-decoration: none;
-  transition: var(--standard-transition);
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--standard-padding);
+    margin: var(--standard-margin);
+    /* color: black; */
+    /* font-weight: 600; */
+    /* background-color: var(--primary-color); */
+    background-color: var(--lighter);
+    border: none;
+    border-radius: var(--standard-border-radius);
+    cursor: pointer;
+    text-decoration: none;
+    transition: var(--standard-transition);
+    width: fit-content;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+    align-self: center;
 }
 
 .download-icon {

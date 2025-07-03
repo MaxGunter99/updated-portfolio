@@ -12,13 +12,14 @@ import './css/App.css';
 function App() {
 	return (
 		<div className="app-container">
+
 			<Header />
 
 			<div  className='app-content'>
 				<Summary />
 				{/* <Divider/> */}
-				<Resume />
-				<Divider/>
+				<Resume returnButton={true} />
+				{/* <Divider/> */}
 				<Skills />
 				<Divider/>
 				<Experience />
@@ -29,6 +30,7 @@ function App() {
 			</div>
 
 			<Footer />
+
 		</div>
 	);
 }

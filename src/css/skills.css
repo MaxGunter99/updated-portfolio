@@ -29,6 +29,6 @@
 .skill {
     border: var(--standard-border) solid var(--lighter);
 }
-.skill.favorite {
+/* .skill.favorite {
     border: var(--standard-border) solid var(--darker);
-}
+} */
