@@ -103,7 +103,7 @@ export default function Projects() {
 
                         steps_to_solve = cube_client.solve_cube()
                         <br/>
-                        print( steps_to_solve 
+                        print( steps_to_solve )
 
                         <br/>
                         <br/>
