@@ -76,7 +76,7 @@ const config = {
 	standardBorderRadius: "7px",
     standardBorder: "2px",
 	standardPadding: "0.7em",
-	standardMargin: "0.5em",
+	standardMargin: "0.7em",
 	standardIconSize: "25px",
 	standardIconStrokeWidth: "2px",
     standardMaxWidth: "1200px",
