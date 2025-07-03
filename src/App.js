@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Credentials from './components/Credentials';
+import Resume from './components/Resume';
 import './css/App.css';
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
 
 			<div  className='app-content'>
 				<Summary />
+				{/* <Divider/> */}
+				<Resume />
+				<Divider/>
 				<Skills />
 				<Divider/>
 				<Experience />

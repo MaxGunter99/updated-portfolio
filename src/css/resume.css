@@ -1,0 +1,56 @@
+
+.resume-container {
+    background-color: var(--secondary-background-color);
+    padding: var(--standard-padding);
+    border-radius: var(--standard-border-radius);
+    margin: var(--standard-margin);
+}
+
+.resume-pdf-container {
+    margin: var(--standard-margin);
+    /* display: inline-block; */
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    /* border-left: var(--standard-border) solid var(--darker); */
+}
+
+.resume {
+    width: fit-content;
+    size: 100%;
+    height: 600px;
+    width: 100%;
+    border: none;
+    border-radius: var(--standard-border-radius);
+}
+
+.resume-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: var(--standard-padding);
+  /* color: black; */
+  /* font-weight: 600; */
+  /* background-color: var(--primary-color); */
+  background-color: var(--lighter);
+  border: none;
+  border-radius: var(--standard-border-radius);
+  cursor: pointer;
+  text-decoration: none;
+  transition: var(--standard-transition);
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); */
+}
+
+.download-icon {
+    size: var(--standard-icon-size);
+    margin: var(--standard-margin);
+}
+
+@media (max-width: 768px) {
+
+    .resume-pdf-container {
+        justify-content: center;
+    }
+
+}

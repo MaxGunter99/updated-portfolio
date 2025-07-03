@@ -20,7 +20,7 @@
 
 .footer-section {
     flex: 1;
-    /* border: 3px solid red; */
+    /* border: var(--standard-border) solid red; */
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
 }
 
 .LambdaStamp {
-    border: 3px solid white;
+    border: var(--standard-border) solid white;
     height: var(--lambda-stamp-size);
     width: var(--lambda-stamp-size);
     border-radius: 50%;

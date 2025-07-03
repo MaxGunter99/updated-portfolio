@@ -15,10 +15,20 @@
 
 .skill {
     /* flex: 1; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-width: fit-content;
     background-color: var(--secondary-background-color);
     margin: var(--standard-margin);
     padding: var(--standard-padding);
     border-radius: var(--standard-border-radius);
     text-indent: 0;
+}
+
+.skill {
+    border: var(--standard-border) solid var(--lighter);
+}
+.skill.favorite {
+    border: var(--standard-border) solid var(--darker);
 }

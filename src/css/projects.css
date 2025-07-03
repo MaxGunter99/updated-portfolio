@@ -1,27 +1,30 @@
 
 .projects-container {
     padding: var(--standard-padding);
+    margin: var(--standard-margin);
 }
 
 .project-item {
     padding: var(--standard-padding);
     background-color: var(--secondary-background-color);
     border-radius: var(--standard-border-radius);
-    /* border: 3px solid red; */
+    margin: var(--standard-margin);
+    /* border: var(--standard-border) solid red; */
 }
 
 .project-details {
     
     padding: var(--standard-padding);
-    /* border: 3px solid red; */
-    border-left: 3px solid var(--darker);
+    /* border: var(--standard-border) solid red; */
+    border-left: var(--standard-border) solid var(--darker);
+    margin: var(--standard-margin);
 }
 
 .project-image {
     width: 100%;
     height: auto;
     border-radius: var(--standard-border-radius);
-    /* border: 3px solid white; */
+    /* border: var(--standard-border) solid white; */
     /* margin-bottom: 10px; */
 }
 
@@ -60,7 +63,7 @@ pre code {
     display: flex;
     flex-direction: column;
     /* text-align: left; */
-    /* border: 3px solid red; */
+    /* border: var(--standard-border) solid red; */
     /* padding: var(--standard-padding); */
     justify-content: center;
     /* align-items: baseline; */
@@ -85,7 +88,7 @@ pre code {
 
 .project-link:hover {
     cursor: pointer;
-    /* border: 2px solid var(--secondary-color); */
+    /* border: var(--standard-border) solid var(--secondary-color); */
     /* color: blue; */
 }
 

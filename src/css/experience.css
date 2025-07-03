@@ -1,6 +1,7 @@
 
 .experience-container {
     padding: var(--standard-padding);
+    margin: var(--standard-margin);
 }
 
 /* .experience-info {
@@ -30,7 +31,8 @@
 
 .experience-details {
     padding: var(--standard-padding);
-    border-left: 3px solid var(--darker);
+    border-left: var(--standard-border) solid var(--darker);
+    margin: var(--standard-margin);
 }
 
 .experience-details p {

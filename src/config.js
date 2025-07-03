@@ -73,9 +73,10 @@ const config = {
 	// -----------------
 
 	standardTransition: "0.2s",
-	standardBorderRadius: "5px",
+	standardBorderRadius: "7px",
+    standardBorder: "2px",
 	standardPadding: "0.7em",
-	standardMargin: "5px",
+	standardMargin: "0.5em",
 	standardIconSize: "25px",
 	standardIconStrokeWidth: "2px",
     standardMaxWidth: "1200px",
@@ -88,6 +89,7 @@ const config = {
 	errorRed: "rgb(224, 102, 102)",
 	transparent: "rgba(255, 0, 0, 0)",
 	darker: "rgba(0, 0, 0, 0.12)",
+	lighter: "rgba(255, 255, 255, 0.56)",
     avatarSize: "250px",
 };
 
@@ -117,6 +119,7 @@ applyTheme( "clouds" );
 
 document.documentElement.style.setProperty("--standard-transition", config.standardTransition);
 document.documentElement.style.setProperty("--standard-border-radius", config.standardBorderRadius);
+document.documentElement.style.setProperty("--standard-border", config.standardBorder);
 document.documentElement.style.setProperty("--standard-padding", config.standardPadding);
 document.documentElement.style.setProperty("--standard-margin", config.standardMargin);
 document.documentElement.style.setProperty("--standard-icon-size", config.standardIconSize);
@@ -131,6 +134,7 @@ document.documentElement.style.setProperty("--lambda-red", config.lambdaRed);
 document.documentElement.style.setProperty("--error-red", config.errorRed);
 document.documentElement.style.setProperty("--transparent", config.transparent);
 document.documentElement.style.setProperty("--darker", config.darker);
+document.documentElement.style.setProperty("--lighter", config.lighter);
 document.documentElement.style.setProperty("--avatar-size", config.avatarSize);
 
 export default config;
