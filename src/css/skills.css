@@ -20,7 +20,7 @@
     justify-content: center;
     min-width: fit-content;
     background-color: var(--secondary-background-color);
-    margin: var(--standard-margin);
+    /* margin: var(--standard-margin); */
     padding: var(--standard-padding);
     border-radius: var(--standard-border-radius);
     text-indent: 0;

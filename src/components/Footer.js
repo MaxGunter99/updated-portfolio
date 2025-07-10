@@ -16,7 +16,7 @@ export default function Footer() {
 						<strong>{config['NAME']}</strong>
 					</h2>
 					<p className="text-item">
-						<strong>Full-Stack Web Developer</strong>
+						<strong>{config['JOB_TITLE']}</strong>
 					</p>
 					<p className="text-item">
 						Bloom Institute of Technology (Lambda)
