@@ -29,9 +29,9 @@
     padding: var( --standard-padding );
 }
 
-.footer-section .text-item {
+/* .footer-section .text-item {
     margin: var(--standard-margin);
-}
+} */
 
 .footer-section.left {
     text-align: right;
@@ -75,6 +75,7 @@
 
     .footer-content  {
         flex-direction: column;
+        height: 100%;
     }
 
     .footer-section {

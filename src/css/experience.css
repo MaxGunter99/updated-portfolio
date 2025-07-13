@@ -1,7 +1,7 @@
 
 .experience-container {
     padding: var(--standard-padding);
-    margin: var(--standard-margin);
+    /* margin: var(--standard-margin); */
 }
 
 /* .experience-info {
@@ -13,6 +13,7 @@
     background-color: var(--secondary-background-color);
     /* margin-bottom: var(--standard-padding); */
     padding: var(--standard-padding);
+    margin: var(--standard-margin);
     border-radius: var(--standard-border-radius);
 }
 

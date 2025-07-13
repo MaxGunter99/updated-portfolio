@@ -5,12 +5,13 @@
 
 
 /* .skills-list-title {
-
+    
 } */
 
 .skills-list {
     display: flex;
     flex-wrap: wrap;
+    padding: var(--standard-padding);
 }
 
 .skill {

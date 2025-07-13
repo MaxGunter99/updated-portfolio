@@ -1,7 +1,7 @@
 
 .projects-container {
     padding: var(--standard-padding);
-    margin: var(--standard-margin);
+    /* margin: var(--standard-margin); */
 }
 
 .project-item {
