@@ -9,7 +9,7 @@
 } */
 
 .experience-item {
-    width: 100%;
+    /* width: 100%; */
     background-color: var(--secondary-background-color);
     /* margin-bottom: var(--standard-padding); */
     padding: var(--standard-padding);
