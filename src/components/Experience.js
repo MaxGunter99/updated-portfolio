@@ -10,7 +10,7 @@ export default function Experience() {
 
             <div className="experience-item">
 
-                <h4>Shift Manager</h4>
+                <h4>Crew Member & Shift Manager</h4>
 
                 <div className="experience-info">
                     <div className="experience-info-location">
